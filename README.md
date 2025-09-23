@@ -1,3 +1,6 @@
+## Name: Jeffy Brailin T
+## Reg. No : 212223040076
+
 # Implementation-of-filter
 ## Aim:
 To implement filters for smoothing and sharpening the images in the spatial domain.
@@ -22,9 +25,8 @@ Plot the original and filtered image by using matplotlib.pyplot.
 End the program.
 
 ## Program:
-### Developed By   : JEFFY BRAILIN T
-### Register Number: 212223040076
-</br>
+
+
 
 ### 1. Smoothing Filters
 
@@ -33,7 +35,7 @@ i) Using Averaging Filter
 import cv2
 import matplotlib.pyplot as plt
 import numpy as np
-image1=cv2.imread("C:/Users/admin/Downloads/Digital images/ex_6_image.jpg")
+image1=cv2.imread("jeffyimage.png.jpg")
 image2=cv2.cvtColor(image1,cv2.COLOR_BGR2RGB)
 kernel=np.ones((11,11),np.float32)/169
 image3=cv2.filter2D(image2,-1,kernel)
@@ -144,21 +146,23 @@ plt.show()
 
 i) Using Averaging Filter
 
-<img width="822" height="287" alt="image" src="https://github.com/user-attachments/assets/bb14710b-f966-4c7c-8485-249828931047" />
+<img width="663" height="521" alt="image" src="https://github.com/user-attachments/assets/12093299-0618-4439-b8de-aa7413ca0292" />
 
 
 ii)Using Weighted Averaging Filter
 
-<img width="746" height="259" alt="image" src="https://github.com/user-attachments/assets/e29a7141-c8ea-419a-870d-c459d1c245e8" />
+<img width="615" height="501" alt="image" src="https://github.com/user-attachments/assets/87c7da8d-890b-49b3-867f-19742aca4db7" />
+
 
 iii)Using Gaussian Filter
 
-<img width="728" height="237" alt="image" src="https://github.com/user-attachments/assets/0f14b91b-ed77-457c-8792-5173156223ff" />
+<img width="604" height="497" alt="image" src="https://github.com/user-attachments/assets/35edff1d-fedf-4eab-9a21-2362bf66dfe7" />
 
 
 iv) Using Median Filter
 
-<img width="833" height="279" alt="image" src="https://github.com/user-attachments/assets/04af352b-c777-4856-9536-b1e8bfdb5410" />
+<img width="875" height="755" alt="image" src="https://github.com/user-attachments/assets/217c5ea7-83ae-471b-859d-c39e6d59cf5c" />
+
 
 
 ### 2. Sharpening Filters
@@ -166,12 +170,13 @@ iv) Using Median Filter
 
 i) Using Laplacian Kernal
 
-<img width="612" height="204" alt="image" src="https://github.com/user-attachments/assets/34803021-e898-48bb-862e-dcfcbda82bb8" />
+<img width="648" height="535" alt="image" src="https://github.com/user-attachments/assets/9a902467-816e-4018-9d73-f0c4bd0bc996" />
 
 
 ii) Using Laplacian Operator
 
-<img width="617" height="221" alt="image" src="https://github.com/user-attachments/assets/508fa7d4-54ab-413d-aee9-9a9838c66f50" />
+![Uploading image.png…]()
+
 
 
 ## Result:
