@@ -174,8 +174,9 @@ i) Using Laplacian Kernal
 
 
 ii) Using Laplacian Operator
+<img width="653" height="543" alt="image" src="https://github.com/user-attachments/assets/a948908b-9876-49b6-ba95-1580717addf9" />
 
-![Uploading image.png…]()
+
 
 
 
